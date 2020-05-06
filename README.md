@@ -21,7 +21,6 @@ This guide is intended to be a point of knowledge for everyone who wants to pass
 - [Describe the difference between running a container and running a service.](https://stackoverflow.com/a/43408904)
 - [Interpret the output of "docker inspect" commands](https://docs.docker.com/engine/swarm/swarm-tutorial/inspect-service/)
 - [Demonstrate steps to lock a swarm cluster](https://docs.docker.com/engine/swarm/swarm_manager_locking/)
-
 - [Convert an application deployment into a stack file using a YAML compose file with "docker stack deploy"](https://docs.docker.com/engine/swarm/stack-deploy/)
 - [Manipulate a running stack of services](https://docs.docker.com/engine/reference/commandline/stack_services/#related-commands)
 - [Describe and demonstrate orchestration activities.](https://docs.docker.com/get-started/orchestration/)
@@ -118,8 +117,8 @@ available](https://rancher.com/block-object-file-storage-containers/)
 - Identify the steps you would take to clean up unused images on a filesystem, also on DTR.
 ([image prune](https://docs.docker.com/engine/reference/commandline/image_prune/), [system prune](https://docs.docker.com/engine/reference/commandline/system_prune/) and [from DTR](https://docs.docker.com/ee/dtr/user/manage-images/delete-images/))
 - [Describe and demonstrate how storage can be used across cluster nodes.](https://docs.docker.com/engine/extend/legacy_plugins/#volume-plugins)
-- Describe how to provision persistent storage to a Kubernetes pod using persistentVolumes.
-- Describe the relationship between container storage interface drivers, storageClass, persistentVolumeClaim and volume objects in Kubernetes
+- [Describe how to provision persistent storage to a Kubernetes pod using persistentVolumes.](https://kubernetes.io/docs/concepts/storage/persistent-volumes/)
+- [Describe the relationship between container storage interface drivers, storageClass, persistentVolumeClaim and volume objects in Kubernetes](https://kubernetes.io/blog/2019/01/15/container-storage-interface-ga/)
 
 ## Quick facts about the exam
 
